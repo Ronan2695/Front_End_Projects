@@ -1,0 +1,151 @@
+
+#outer-div
+{
+	height:700px;
+	width:700px;
+	background: #E2E0E0;
+	border-radius: 10px 10px 10px 10px;
+	margin: 0 auto;
+	margin-top:170px; 	
+
+}
+
+#inner-div-1
+{
+
+	height:60px;
+	width:630px;
+	background: black;
+	position: absolute;
+	top:22%;
+	left:33.5%;
+
+}
+
+#inner-div-1 p
+{
+	color:white;
+	margin: 15px;
+	margin-left:190px;
+	font-size: 30px;
+	font-weight: bolder;
+
+}
+
+
+#display
+{
+
+	height:100px;
+	width:630px;
+	background: #F5F5F5;
+	margin: 33px;	
+	position: absolute;
+	top:28%;
+	font-size: 45px;	
+}
+
+
+#inner-div-3
+{
+	height: 450px;
+	width: 650px;
+	/*border:2px solid black;*/
+	position: absolute;
+	top:45%;
+	left:33%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	align-content: stretch;
+
+}
+
+.box
+{
+
+	height: 70px;
+	width: 150px;
+	border:1px solid #FFFFFF;
+	transition: 0.5s;
+	background-color: #FFFFFF;
+
+}
+
+
+#box-1
+{
+
+	width: 310px;
+
+}
+
+span
+{
+	font-size: 30px;
+	margin-left: 62px;
+	position: absolute;
+	top:4%;
+	font-weight: bolder;
+
+}
+
+.nos
+{
+
+	font-size: 30px;
+	margin-left: 70px;
+	position: absolute;
+	top:25%;
+	font-weight: bolder;
+}
+
+.nos-2
+{
+
+	font-size: 30px;
+	margin-left: 70px;
+	position: absolute;
+	top:45%;
+	font-weight: bolder;
+
+}
+
+.nos-3
+{
+
+	font-size: 30px;
+	margin-left: 70px;
+	position: absolute;
+	top:65%;
+	font-weight: bolder;
+
+}
+
+.nos-4
+{
+
+	font-size: 30px;
+	margin-left: 70px;
+	position: absolute;
+	top:85%;
+	font-weight: bolder;
+
+}
+
+
+.box:hover
+{
+
+	background: #FFC877;
+	/*background: blue */
+}
+
+.coloured
+{
+	background-color: #C14444;
+	color: #FFFFFF;
+	font-weight: bolder;
+
+}
